@@ -50,7 +50,14 @@ canvas1.create_image(0, 0, image=background, anchor= NW)
 titulo= Label(canvas1, text="Clickea para tirar el dado:", bg="#4F0409")
 
 botonImage= PhotoImage(file="C:\cosas\Downloads\pildoras\phyton\ejercicios\Dice Room\Dice0.png")
-botonRollDado= Button(canvas1, image=botonImage, command=tirarDados, bg="#4F0409", borderwidth=0, highlightthickness = 0, bd = 0, highlightbackground="#600C16")
+botonRollDado= Button(canvas1, 
+                        image=botonImage,
+                        command=tirarDados, 
+                        bg="#4F0409", 
+                        borderwidth=0, 
+                        highlightthickness = 0, 
+                        bd = 0, 
+                        highlightbackground="#600C16")
 
 labelDado= Label(canvas1, text="", bg="#4F0409", wraplength= 180)
 
